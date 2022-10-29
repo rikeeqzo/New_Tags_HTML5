@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!--Aula 90-->
+<!--Aula 93-->
 
 <head>
     <title>Novas Tags de input Html 5</title>
@@ -28,7 +28,12 @@
 
         <!-- Número -->
         <label for="numero">Número</label>
-        <input type="number" name="email" id="numero" required>
+        <input type="number" name="email" id="numero" min="1" max="20" step="5">
+        <br><br>
+
+        <!-- Url -->
+        <label for="Url">Url</label>
+        <input type="url" id="url">
         <br><br>
 
         <input type="submit" name="" value="Enviar">
